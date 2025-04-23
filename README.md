@@ -1,2 +1,2 @@
-# username.github.io
+# JavohirNurmaxamatov.github.io
 Bu sayt portfolio
