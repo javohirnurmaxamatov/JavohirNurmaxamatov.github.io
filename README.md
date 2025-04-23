@@ -1,2 +1,2 @@
 # JavohirNurmaxamatov.github.io
-Bu sayt portfolio
+Bu sayt Javohir Nurmaxamatovning portfoliosi
