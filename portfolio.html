@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nurmaxamatov Javohir/title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Mening Portfolio</h1>
+            <p>____________________</p>
+        </div>
+    </header>
+
+    <!-- Navigatsiya -->
+    <nav>
+        <ul>
+            <li><a href="#home">Bosh Sahifa</a></li>
+            <li><a href="#about">Men Haqimda</a></li>
+            <li><a href="#projects">Loyihalar</a></li>
+            <li><a href="#skills">Malakalar</a></li>
+            <li><a href="#contact">Aloqa</a></li>
+        </ul>
+    </nav>
+
+    <!-- Bosh Sahifa -->
+    <section id="home" class="hero">
+        <div class="container">
+            <img src="profile.jpg" alt="Mening rasmmim">
+            <h2>Salom, men Javohir!</h2>
+            <p>________________________________-</p>
+        </div>
+    </section>
+
+    <!-- Men Haqimda -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Men Haqimda</h2>
+            <p>Men [Ismingiz], [kasbingiz] bo‘lib, [tajribangiz] yildan buyon ushbu sohada ishlayapman. Men sizning biznesingiz uchun professional veb-saytlarni yaratish, dizayn qilish va optimallashtirish bo‘yicha yordam beraman.</p>
+        </div>
+    </section>
+
+    <!-- Loyihalar -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Loyihalar</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="project1.jpg" alt="Loyiha 1">
+                    <h3>Loyiha 1</h3>
+                    <p>Bu mening birinchi loyihaim. Responsive veb-sayt.</p>
+                </div>
+                <div class="project-item">
+                    <img src="project2.jpg" alt="Loyiha 2">
+                    <h3>Loyiha 2</h3>
+                    <p>Grafik dizaynga oid ishlar to‘plami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Malakalar -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Malakalar</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Aloqa -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Aloqa</h2>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Ismingiz" required>
+                <input type="email" name="email" placeholder="Elektron pochtangiz" required>
+                <textarea name="message" placeholder="Xabar matni" required></textarea>
+                <button type="submit">Yuborish</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mening Portfolio. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+</body>
+</html>
